@@ -11,8 +11,7 @@ import streamlit as st
 
 
 # loading the saved model 
-path = "trained_model.pkl"
-model = pickle.load(open(path,'rb'))
+model = pickle.load(open("Marks-Prediction-System/trained_model.pkl",'rb'))
 
 
 # creating a function for prediction 
