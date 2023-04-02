@@ -9,8 +9,9 @@ import numpy as np
 import pickle
 import streamlit as st
 
-
 # loading the saved model 
+model = pickle.load(open("Marks-Prediction-System/trained_model.pkl",'rb'))
+
 model = pickle.load(open("Marks-Prediction-System/trained_model.pkl",'rb'))
 
 
