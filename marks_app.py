@@ -11,7 +11,8 @@ import streamlit as st
 
 
 # loading the saved model 
-model = pickle.load(open("C:/Users/ankit/.vscode/vscode/ML/marks/trained_model.pkl",'rb'))
+path = "trained_model.pkl"
+model = pickle.load(open(path,'rb'))
 
 
 # creating a function for prediction 
