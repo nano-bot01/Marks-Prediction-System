@@ -56,7 +56,7 @@ def main():
     
     # getting the input data from input user
     
-    Hours = st.text_input("Enter the number of hour of actually study (range between 0-13) ")
+    Hours = st.text_input("Enter the number of hour of actually study (range between 1-13) ")
     
     
     # code for prediction 
