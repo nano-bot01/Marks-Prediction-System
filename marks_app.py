@@ -75,14 +75,16 @@ def main():
     About the data to be filled : 
         
         Hours : As number of hours of study before exams is positively correlated 
-        with marks obtained by stuent so more hours of study gives more 
-        number(exception exists like us 💀)
+        with marks obtained by students so more hours of study genrally gives more 
+        marks (exception exists like us 💀) and if you found your marks wrong then 
+        go and BLAME your teacher 🙃
         """)
+  
     
     st.write(" \n\n\n\n\n\n")
     st.markdown("******")
     
-    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01)")
+    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) ")
     
     
 if __name__ == '__main__':
